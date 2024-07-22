@@ -8,7 +8,18 @@ return {
   end,
   config = function()
     require("catppuccin").setup {
-      transparent_background = true
+      transparent_background = true,
+      integrations = {
+        coc_nvim = true,
+        nvimtree = true,
+        treesitter = true,
+        native_lsp = {
+          enabled = true
+        },
+        telescope = {
+          enabled = true
+        }
+      }
     }
   end,
 }

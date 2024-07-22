@@ -33,8 +33,9 @@ require("lazy").setup({
     { import = "plugins.lualine" },
     { import = "plugins.telescope" },
     { import = "plugins.comment" },
-    { import = "plugins.coc" },
-    { import = "plugins.treesitter" }
+    { import = "plugins.treesitter" },
+    { import = "plugins.noice" },
+    { import = "plugins.coc" }
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
