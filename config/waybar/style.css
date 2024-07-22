@@ -81,11 +81,6 @@
   color: @red;
 }
 
-#tray {
-  margin-right: 1rem;
-  border-radius: 1rem;
-}
-
 #network {
   color: #0CB6F2;
   margin-right: 1.5rem;
